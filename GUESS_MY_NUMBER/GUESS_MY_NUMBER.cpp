@@ -249,7 +249,7 @@ int main()
 
                 cout << "\tКомпьютер загадывает число... \n";
                 Sleep(1500);
-                pcnum = rand() % 90 + 1;
+                pcnum = rand() % 90 + 10;
                 cout << "\tКакое число загадано?\n";
                 
                 for (int i = 25; i > 0; i--)
